@@ -1,0 +1,62 @@
+.intro {
+    .container {
+        display: flex;
+        position: relative;
+        height: 555.1px;
+    }
+
+    @media screen and (max-width: $small) {
+        .container {
+            height: auto;
+            display: block;
+        }
+    }
+
+    &__left--title {
+        font-size: 60px;
+        line-height: 70.31px;
+        width: 781px;
+        padding-top: 136px;
+        padding-bottom: 30.16px;
+    }
+
+    @media screen and (max-width: $small) {
+        &__left--title {
+            padding-top: 0;
+            text-align: center;
+            width: auto;
+        }
+    }
+
+    &_left--btn {
+        display: flex;
+        align-items: center;
+
+        .fa-play-circle {
+            padding-right: 14.32px;
+        }
+    }
+
+    img {
+        position: absolute;
+        right: 15px;
+    }
+
+    @media screen and (max-width: $small) {
+        img {
+            position: unset;
+            width: 100%;
+        }
+    }
+
+    &__left {
+        position: absolute;
+        z-index: 1;
+    }
+
+    @media screen and (max-width: $small) {
+        &__left {
+            position: unset;
+        }
+    }
+}

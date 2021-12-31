@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+$font-base: 'Roboto', sans-serif;
+
+* {
+    font-family: $font-base;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56.25px;
+}

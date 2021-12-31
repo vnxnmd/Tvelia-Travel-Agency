@@ -1,0 +1,105 @@
+.best {
+
+    .container {
+        padding-bottom: 104.15px;
+        
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        height: 468.34px;
+    }
+
+    &__title {
+        text-align: center;
+        padding-bottom: 63.58px;
+    }
+
+    .frame1, .item1__img1 {
+        width: 632px;
+        height: 468.34px;
+    }
+    .frame2, .item2__img2, .item3__img3 {
+        width: 179px;
+    }
+
+    .frame2 {
+        height: 468.34px;
+    }
+
+    .item2__img2 {
+        height: 320px;
+    }
+
+    .item3__img3 {
+        height: 136px;
+    }
+
+    .frame3, .item4__img4, .item5__img5 {
+        width: 227px;
+    }
+
+    .item3__img3, .item5__img5, .item7__img7 {
+        position: relative;
+        top: 6px;
+    }
+
+    .item4__img4 {
+        height: 256px;
+    }
+
+    .item5__img5 {
+        height: 200px;
+    }
+
+    .frame4, .item6__img6, .item7__img7 {
+        width: 142px;
+    }
+
+    .item6__img6 {
+        height: 147px;
+    }
+
+    .item7__img7 {
+        height: 309px;
+    }
+
+    .item7 {
+        position: relative;
+    }
+
+    button {
+        width: 142px;
+        position: absolute;
+        bottom: -1px;
+        border-bottom-left-radius: 11px;
+        border-bottom-right-radius: 11px;
+    }
+
+    .item1 {
+        position: relative;
+    }
+
+    .item1__content {
+        position: absolute;
+        bottom: 43.07px;
+        left: 29.67px;
+    }
+
+    span,p {
+        color: $white;
+    }
+
+    span {
+        font-size: 20px;
+        line-height: 23.44px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 18.75px;
+        padding-top: 8px;
+        padding-bottom: 3px;
+    }
+}

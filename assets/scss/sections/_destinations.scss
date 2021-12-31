@@ -1,0 +1,32 @@
+.destinations {
+    .container {
+        max-width: 1100px;
+        padding-bottom: 27.43px;
+    }
+
+    &__title {
+        text-align: center;
+        padding-bottom: 84.62px;
+    }
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__content--item {
+        display: flex;
+        align-items: center;
+        width: 221px;
+        padding-bottom: 66.69px;
+    }
+
+    .item__right {
+        display: block;
+    }
+
+    img {
+        padding-right: 20px;
+    }
+}

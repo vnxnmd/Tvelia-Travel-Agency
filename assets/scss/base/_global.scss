@@ -1,0 +1,25 @@
+$white: #fff;
+$dark: #1D1B19;
+$primary: #FF5300;
+$secondary: #FFD4BF;
+$star: #FFC107;
+
+$small: 768px;
+
+* {
+    color: $dark;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}

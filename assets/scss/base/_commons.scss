@@ -1,0 +1,35 @@
+.item__rating {
+    direction: rtl;
+    display: flex;
+    position: absolute;
+}
+
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    font-size: 11px;
+    padding-right: 5.5px;
+}
+
+label::before {
+    font-family: 'fontAwesome';
+    content: '\f006';
+    color: $star;
+    position: absolute;
+}
+
+label::after {
+    font-family: 'fontAwesome';
+    content: '\f005';
+    color: $star;
+    opacity: 0;
+}
+    
+label:hover:after,
+label:hover ~ label:after,
+input:checked ~ label:after {
+    opacity: 1;
+}

@@ -1,0 +1,75 @@
+.footer {
+    padding-bottom: 104px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    span {
+        color: $primary;
+        font-size: 48px;
+        line-height: 56.25px;
+    }
+
+    a,li {
+        font-size: 18px;
+        line-height: 26.09px;
+        color: #C6C6C6;
+    }
+
+    .item-text {
+        padding-bottom: 25.39px;
+        color: #C6C6C6;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+
+    .face, .google, .twitter, .insta1 {
+        padding-right: 27.33px;
+    }
+
+    .address, .email, .call {
+        padding-right: 10.08px;
+    }
+
+    .insta1 {
+        position: absolute;
+    }
+
+    .insta2 {
+        position: relative;
+        left: 6px;
+        bottom: 7px;
+    }
+
+    h2 {
+        padding-bottom: 15.44px;
+    }
+
+    .item-name {
+        font-size: 24px;
+        line-height: 28.13px;
+        color: $dark;
+    }
+
+    .item2, .item3, .item4 {
+        padding-top: 20px;
+    }
+
+    .item1 {
+        width: 404.32px;
+    }
+
+    .item-name2 {
+        padding-bottom: 14.48px;
+    }
+
+    .item-name3 {
+        padding-bottom: 33.65px;
+    }
+
+    .item-name4 {
+        padding-bottom: 22.38px;
+    }
+}

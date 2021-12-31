@@ -1,0 +1,24 @@
+.btn {
+    border: none;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn--primary {
+    .fa-play-circle {
+        font-size: 40px;
+        color: $primary;
+        background: $white;
+    }
+}
+
+.btn--secondary {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 21.09px;
+    background: $primary;
+}
